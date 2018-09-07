@@ -1,0 +1,64 @@
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+i{
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tamanio{
+    font-size: 1.5em;
+}
+
+.rojo{
+    height: 3px;
+    color: #f56a6a;
+    background: #f56a6a;
+    border: none;
+}
+
+
+.rojo2{
+    height: 3px;
+    width: 30%;
+    color: #f56a6a;
+    background: #f56a6a;
+    border: none;
+    align: left;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 5px;
+}
+
+.bsimple{
+    border-radius: 9px;
+    border: 3px solid #f56a6a;
+    color: #f56a6a;
+    height: 3rem;
+    width: 15rem;
+    background: white;
+}
+
+.bsimple:hover{
+    background: #c9cdd1;
+}
+
+.flex-container{
+    display: flex;
+    box-flex: 2;
+}
+
