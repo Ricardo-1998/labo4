@@ -62,3 +62,7 @@ header{
     box-flex: 2;
 }
 
+.cola::before{
+    font-family: FontAwesome;
+    content: "\f26e";
+}
