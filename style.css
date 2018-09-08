@@ -5,8 +5,16 @@ h1{
 p{
     font-family: 'Roboto', sans-serif;
     color: #7f888f;
+    text-align: left;
+
 }
-i{
+header{
+    font-size: 1.1em;
+    padding: 0.3em;
+}
+
+
+header>i{
     margin-right: 5px;
     margin-left: 5px;
     
@@ -32,7 +40,7 @@ header{
 
 .rojo2{
     height: 3px;
-    width: 30%;
+    width: 10%;
     color: #f56a6a;
     background: #f56a6a;
     border: none;
@@ -42,7 +50,10 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 5px;
+    
+  
 }
+
 
 .bsimple{
     border-radius: 9px;
@@ -57,12 +68,27 @@ header{
     background: #c9cdd1;
 }
 
-.flex-container{
-    display: flex;
-    box-flex: 2;
+.texto{
+    
+    width: 60%;
 }
 
-.cola::before{
-    font-family: FontAwesome;
-    content: "\f26e";
+
+td>i{
+    margin-right: 10px;
+    font-size: 2em;
+    color: #f56a6a;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+.flex-container{
+    display: flex;
+}
+.imagen{
+    margin-left: 2em;
+    padding: 5vw;   
+
 }
